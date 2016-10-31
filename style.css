@@ -453,7 +453,7 @@ a {
 
 
 #contactHolder{
-	margin-top: 20px;
+	margin-top: 12px;
 	position: absolute;
 	margin-left: auto;
 	margin-right: auto;
@@ -633,6 +633,7 @@ a {
 	letter-spacing: 4px;
 	text-align: center;
 	overflow: hidden;
+	display: none;
 }
 
 .projectTxtTypeP{

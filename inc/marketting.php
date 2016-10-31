@@ -24,7 +24,7 @@
 	</div>
 </div>
 <div id="stageHolder">
-	<div id="markettingTitle" class="title-page" style="display: block;">Marketting</div>
+	<div id="markettingTitle" class="title-page" style="display: block;">Deign</div>
 	<div id="projectsStageHolder"></div>
 	<div id="navigationProjects"></div>
 	<div id="navigationPhotos"></div>

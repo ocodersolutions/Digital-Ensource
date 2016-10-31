@@ -1369,7 +1369,7 @@ ProjectsPage.prototype.selectPage = function(){
 	$("#selectedNaviArc").css("left", whatI * 26);
 }
 
-ProjectsPage.prototype.clickNext = function(e){
+ProjectsPage.prototype.clickNext = function(e){ 
 	e.preventDefault();
 
 	if (DTSite.loadingProject) return;
@@ -2478,6 +2478,7 @@ ProjectsPage.prototype.disableAction = function(el){
 }
 
 ProjectsPage.prototype.setUpAction = function(el){
+
 		$(el).on("mouseover", this.mouseOverStage);
 		//$(el).on("mousemove", this.mouseMoveOverStage);
 		$(el).on("mouseout", this.mouseOutStage);

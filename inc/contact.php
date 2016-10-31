@@ -49,17 +49,31 @@
         display: block;
     	margin: 15px auto;
     	cursor: pointer;
+	}	
+	.contact-block{
+		float: left;
+		font-size: 20px;
+		width: 33%;
 	}
+	.contact-block .title{
+		font-family: "GT-Walsheim-Bold";
+	}
+	.contact-block .info{
+		font-size: 16px;
+		font-family: "GT-Walsheim-Medium";
+	}
+	#v-desktop #contactHolder{
+		width: 55% !important;
+	}
+	
 </style>
 
 <div id="contactHolder">
 	<div id="contactName">DIGITAL ENSOURCE</div>
-	<div id="contactT1" style="margin-top: -50px;"><span id="contactF1">M: </span><span id="contactF1_2">... ... ...</span><div class="clear"></div></div>
-	<div id="contactT2" style="margin-top: -50px;"><div id="contactF2">E:&nbsp;</div><div id="contactF2_1"><div id="contactF2_2">... ... ...</div><div id="contactF2_3">... ... ...</div><div id="contactF2_4">... ... ...</div><div id="btnContact"></div></div>
-	<div class="clear"></div></div>
-	<div id="contactLine" style="margin-top: -30px; max-height: 25px;"></div>
-
-
+	<div class="contact-block"> <div class="title">Phone:</div><div class="info"> Sales: 1888-831-4148<br/>Support: 1877-854-8879</div></div>
+	<div class="contact-block"> <div class="title">Address:</div><div class="info"> 30-70 E Beaver Creek Road Richmond Hill ON L4B 3B2</div></div>
+	<div class="contact-block"> <div class="title">Email:</div><div class="info"> sales@digitalensource.com<br/>247support@digitalensource.com</div></div>
+	
 	<form class="contact-form" method="post">
 		<input required type="text" name="name" class="input-contact" align="center" placeholder="Full Name"/>
 		<input required type="email" name="email" class="input-contact" align="center" placeholder="Email" />
