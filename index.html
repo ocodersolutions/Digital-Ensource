@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+	<script type="text/javascript">
+
+		function isMobile() {
+		  try{ document.createEvent("TouchEvent"); return true; }
+		  catch(e){ return false; }
+		}
+		if (isMobile()) {
+		 	window.location = "/index_mobile.html";
+		}else{
+			window.location = "/index_desktop.html";
+		}
+	</script>
+</head>
+<body>
+
+</body>
+</html>

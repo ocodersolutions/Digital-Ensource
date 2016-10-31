@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'bebas_neuebold';
+    src: url('fonts/bebasneue_bold-webfont.eot');
+    src: url('fonts/bebasneue_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/bebasneue_bold-webfont.woff2') format('woff2'),
+         url('fonts/bebasneue_bold-webfont.woff') format('woff'),
+         url('fonts/bebasneue_bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('fonts/bebasneue_regular-webfont.eot');
+    src: url('fonts/bebasneue_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/bebasneue_regular-webfont.woff2') format('woff2'),
+         url('fonts/bebasneue_regular-webfont.woff') format('woff'),
+         url('fonts/bebasneue_regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'GT-Walsheim-Regular';
+    src: url('fontsT/GT-Walsheim-Regular.eot');
+    src: url('fontsT/GT-Walsheim-Regular.eot?#iefix') format('embedded-opentype'),
+         url('fontsT/GT-Walsheim-Regular.woff') format('woff'),
+         url('fontsT/GT-Walsheim-Regular.ttf') format('truetype'),
+         url('fontsT/GT-Walsheim-Regular.svg#GT-Walsheim-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'GT-Walsheim-Medium';
+    src: url('fontsT/GT-Walsheim-Medium.eot');
+    src: url('fontsT/GT-Walsheim-Medium.eot?#iefix') format('embedded-opentype'),
+         url('fontsT/GT-Walsheim-Medium.woff') format('woff'),
+         url('fontsT/GT-Walsheim-Medium.ttf') format('truetype'),
+         url('fontsT/GT-Walsheim-Medium.svg#GT-Walsheim-Medium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'GT-Walsheim-Bold';
+    src: url('fontsT/GT-Walsheim-Bold.eot');
+    src: url('fontsT/GT-Walsheim-Bold.eot?#iefix') format('embedded-opentype'),
+         url('fontsT/GT-Walsheim-Bold.woff') format('woff'),
+         url('fontsT/GT-Walsheim-Bold.ttf') format('truetype'),
+         url('fontsT/GT-Walsheim-Bold.svg#GT-Walsheim-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Heebo';
+    src: url('fontsT/Heebo-Thin.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
