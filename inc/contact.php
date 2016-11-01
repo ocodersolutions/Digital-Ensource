@@ -53,6 +53,7 @@
 	    border-radius: 5px;
         display: block;
     	margin: 15px auto;
+    	margin-left: 23%;
     	cursor: pointer;
 	}	
 	#v-mobile #submit{

@@ -11,7 +11,7 @@
 </style>
 
 <div id="aboutHolder">
-	<div id="aboutTitle" class="title-page">About</div>
+	<div id="aboutTitle" class="title-page">About Us</div>
 	<h1 id="headerAbout">About - Katarzyna Konkowska</h1>
 	<div id="aboutName">DIGITAL ENSOURCE</div>
 	<!--

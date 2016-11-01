@@ -1,20 +1,20 @@
 {
   "data": [
     {
-      "type": 1,
+      "type": 0,
       "name": "Acura",
       "name2": "",
       "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
       "uri": "acura",
       "pictures": [
         {
-          "134": "acura_1.jpg"
+          "190": "acura_1.jpg"
         },
         {
-          "215": "acura_2.jpg"
+          "214": "acura_2.jpg"
         },
         {
-          "133": "acura_3.jpg"
+          "191": "acura_3.jpg"
         }
       ],
       "client": "",
@@ -28,33 +28,13 @@
       "uri": "cgs",
       "pictures": [
         {
-          "137": "cgs_1.jpg"
+          "192": "cgs_1.jpg"
         },
         {
-          "135": "cgs_2.jpg"
+          "193": "cgs_2.jpg"
         },
         {
-          "136": "cgs_3.jpg"
-        }
-      ],
-      "client": "",
-      "video": ""
-    },
-    {
-      "type": 1,
-      "name": "Jam Solar",
-      "name2": "",
-      "desc": "Building the Solar site with WordPress, Our team has moved it diligently to PHP. Creating solutions for most perplexing IT problems makes us globally different in web development. Drawing our experience from various industries, we aim at providing solutions to emerging technologies and heterogeneous systems. The calibre of our developers in building the most significant solar site says much about our work and philosophy. We take full responsibility of analysis, design and implementation in order to provide Robust Solutions.",
-      "uri": "jam-solar",
-      "pictures": [
-        {
-          "142": "jam_solar_1.jpg"
-        },
-        {
-          "141": "jam_solar_2.jpg"
-        },
-        {
-          "140": "jam_solar_3.jpg"
+          "194": "cgs_3.jpg"
         }
       ],
       "client": "",
@@ -62,19 +42,59 @@
     },
     {
       "type": 0,
+      "name": "Homula",
+      "name2": "",
+      "desc": "Building the Solar site with WordPress, Our team has moved it diligently to PHP. Creating solutions for most perplexing IT problems makes us globally different in web development. Drawing our experience from various industries, we aim at providing solutions to emerging technologies and heterogeneous systems. The calibre of our developers in building the most significant solar site says much about our work and philosophy. We take full responsibility of analysis, design and implementation in order to provide Robust Solutions.",
+      "uri": "jam-solar",
+      "pictures": [
+        {
+          "196": "logo-sep_1.png"
+        },
+        {
+          "197": "logo-sep_2.png"
+        },
+        {
+          "198": "logo-sep_3.png"
+        }
+      ],
+      "client": "",
+      "video": ""
+    },
+    {
+      "type": 0,
+      "name": "Jam Solar",
+      "name2": "",
+      "desc": "Building the Solar site with WordPress, Our team has moved it diligently to PHP. Creating solutions for most perplexing IT problems makes us globally different in web development. Drawing our experience from various industries, we aim at providing solutions to emerging technologies and heterogeneous systems. The calibre of our developers in building the most significant solar site says much about our work and philosophy. We take full responsibility of analysis, design and implementation in order to provide Robust Solutions.",
+      "uri": "jam-solar",
+      "pictures": [
+        {
+          "196": "jam_solar_1.jpg"
+        },
+        {
+          "197": "jam_solar_2.jpg"
+        },
+        {
+          "198": "jam_solar_3.jpg"
+        }
+      ],
+      "client": "",
+      "video": ""
+    },
+    {
+      "type": 1,
       "name": "Real Vision",
       "name2": "",
       "desc": "We take pride in building the first visionary site of 3D and videography, using Matter port. The site is a wonderful online experience pooled with scenic view of your dream home. Our team have worked hard in giving fully immersive virtual spaces. The 3D media in the site astonishes you with its powerful impact and appearance. Our team has imaginative juices which flow in their mind, further giving a beautiful 3D experience. High quality Service is our motto in achieving client’s satisfaction.",
       "uri": "real-vision",
       "pictures": [
         {
-          "145": "real_vision_1.jpg"
+          "222": "real_vision_1.jpg"
         },
         {
-          "146": "real_vision_2.jpg"
+          "223": "real_vision_2.jpg"
         },
         {
-          "144": "real_vision_3.jpg"
+          "221": "real_vision_3.jpg"
         }
       ],
       "client": "",
@@ -88,13 +108,13 @@
       "uri": "relief-buddy",
       "pictures": [
         {
-          "245": "relief_buddy_1.jpg"
+          "247": "relief_buddy_1.jpg"
         },
         {
-          "246": "relief_buddy_2.jpg"
+          "248": "relief_buddy_2.jpg"
         },
         {
-          "244": "relief_buddy_3.jpg"
+          "249": "relief_buddy_3.jpg"
         }
       ],
       "client": "",
@@ -182,7 +202,7 @@
     },
     {
       "type": 0,
-      "name": "Clean My Carpet",
+      "name": "Fotonica",
       "name2": "",
       "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
       "uri": "real-vision",
@@ -202,7 +222,7 @@
     },
     {
       "type": 0,
-      "name": "Clean My Carpet",
+      "name": "Positivfeed",
       "name2": "",
       "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
       "uri": "real-vision",
@@ -222,7 +242,7 @@
     },
     {
       "type": 0,
-      "name": "Creator Projects",
+      "name": "AGC",
       "name2": "",
       "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
       "uri": "real-vision",
@@ -542,7 +562,7 @@
     },
     {
       "type": 0,
-      "name": "Universal Doors",
+      "name": "Lichess",
       "name2": "",
       "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
       "uri": "real-vision",
@@ -600,8 +620,5 @@
       "client": "",
       "video": ""
     }
-
-
-
   ]
 }
