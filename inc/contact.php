@@ -9,7 +9,8 @@
 	    width: 100%;
 	}
 	.contact-form{
-        margin-top: 80px;
+        margin-top: 40px;
+        width: 100%;
 	}
 
 	.input-contact{
@@ -20,9 +21,13 @@
 		background-color: rgba(255, 255, 255, 0); 
 		width: 350px; 
 		display: block; 
-		margin: 10px auto;
+		
 		font-family: 'bebas_neuebold';
 	    padding-left: 10px;
+	}
+	#v-mobile .input-contact{
+		margin-top: 0px;
+		margin-bottom: 15px;
 	}
 	::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     color:    white;
@@ -50,42 +55,84 @@
     	margin: 15px auto;
     	cursor: pointer;
 	}	
-	.contact-block{
+	#v-mobile #submit{
+		width: 80%;
+	}
+	#v-desktop .contact-block{
 		float: left;
 		font-size: 20px;
-		width: 33%;
+		margin: 0px 90px;
+		margin-left: 85px;
+    	margin-bottom: 10px;
 	}
-	.contact-block .title{
+	#v-desktop .contact-block .title{
 		font-family: "GT-Walsheim-Bold";
 	}
-	.contact-block .info{
+	#v-mobile .contact-block .title{
+		font-size: 16px;
+		font-family: "GT-Walsheim-Bold";
+	}
+	#v-desktop .contact-block .info{
 		font-size: 16px;
 		font-family: "GT-Walsheim-Medium";
 	}
+	#v-mobile .contact-block .info{
+		font-size: 13px;
+		word-break: break-all;
+		font-family: "GT-Walsheim-Medium";
+		padding-right: 20px;
+	}
 	#v-desktop #contactHolder{
-		width: 55% !important;
+		/*width: 100% !important;*/
+	}
+	#v-desktop #contactHolder .left-contact{
+		width: 50%;
+		float: left;
+		margin-top: 40px;
+	}
+	#v-desktop #contactHolder .right-contact{
+		width: 50%;
+		float: left;
+	}
+	.notice{
+		text-align: center;
+		font-family: 'GT-Walsheim-Medium';
+		font-size: 17px; 
+		width: 75%;
+	}
+	#v-mobile .notice{
+		font-size: 10px; 
+		margin: 0 auto;
+	}
+	#success{
+		color: #009688; 
+	}
+	#error{
+		color: red;
 	}
 	
 </style>
 
 <div id="contactHolder">
 	<div id="contactName">DIGITAL ENSOURCE</div>
-	<div class="contact-block"> <div class="title">Phone:</div><div class="info"> Sales: 1888-831-4148<br/>Support: 1877-854-8879</div></div>
-	<div class="contact-block"> <div class="title">Address:</div><div class="info"> 30-70 E Beaver Creek Road Richmond Hill ON L4B 3B2</div></div>
-	<div class="contact-block"> <div class="title">Email:</div><div class="info"> sales@digitalensource.com<br/>247support@digitalensource.com</div></div>
+	<div class="left-contact">
+		<div class="contact-block"> <div class="title">Phone:</div><div class="info"> Sales: 1888-831-4148<br/>Support: 1877-854-8879</div></div>
+		<div class="contact-block"> <div class="title">Address:</div><div class="info"> 30-70 E Beaver Creek Road Richmond Hill ON L4B 3B2</div></div>
+		<div class="contact-block"> <div class="title">Email:</div><div class="info"> sales@digitalensource.com<br/>247support@digitalensource.com</div></div>
+	</div>
 	
-	<form class="contact-form" method="post">
-		<input required type="text" name="name" class="input-contact" align="center" placeholder="Full Name"/>
-		<input required type="email" name="email" class="input-contact" align="center" placeholder="Email" />
-		<textarea  required class="input-contact" name="message" type="text" placeholder="Message" style="height:80px; width: 350px; display: block; margin: 0 auto;"></textarea>
-		<button id="submit" type="submit" >Submit</button> <img id="loading" style="width: 150px; 
-    margin: -70px auto; display: none;" src="img/ajax-load.gif">
-	</form>
-	<p id="success" class="notice" style="text-align: center; display:none; color: #009688; font-family: 'GT-Walsheim-Medium';
-    font-size: 17px; "> Email Sent. Thanks for your contact !</p>
-    <p id="error" class="notice" style="text-align: center; display:none; color: red; font-family: 'GT-Walsheim-Medium';
-    font-size: 17px; "> An error occurred</p>
+	<div class="right-contact">
+		<form class="contact-form" method="post">
+			<input required type="text" name="name" class="input-contact" align="center" placeholder="Full Name"/>
+			<input required type="email" name="email" class="input-contact" align="center" placeholder="Email" />
+			<textarea  required class="input-contact" name="message" type="text" placeholder="Message" style="height:80px; width: 350px; display: block;"></textarea>
+			<button id="submit" type="submit" >Submit</button> 
+			<div><img id="loading" style="width: 150px;margin: -70px auto; display: none;" src="img/ajax-load.gif"></div>
+		</form>
 
+		<p id="success" style="display:none;" class="notice"> Email Sent. Thanks for your contact !</p>
+	    <p id="error" style="display:none;" class="notice"> An error occurred</p>
+	</div>
 
 
 

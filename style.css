@@ -49,7 +49,7 @@ a {
     text-decoration: none;
 }
 #v-mobile #mobileContent{
-	top: 165px!important;
+	top: 120px!important;
 }
 #naviMain{
 	position:absolute;
@@ -453,7 +453,6 @@ a {
 
 
 #contactHolder{
-	margin-top: 12px;
 	position: absolute;
 	margin-left: auto;
 	margin-right: auto;
@@ -1662,6 +1661,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
 		max-width: 100% !important;
 	}
 	#contactHolder .contact-form {
-		margin-top: 30px;
+		margin-top: 0px;
 	}
 }
