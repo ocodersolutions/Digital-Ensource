@@ -58,6 +58,7 @@
 	}	
 	#v-mobile #submit{
 		width: 80%;
+		margin-left: 8%;
 	}
 	#v-desktop .contact-block{
 		float: left;
