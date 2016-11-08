@@ -3584,11 +3584,11 @@ HomePage.prototype.setMcPosition = function(ref){
 	//this.adressTmp = "/clients/dteam_dev/";
 	this.adressTmp = "/";
 
-	this.siteTitles = [{title:"Home", short:"", url:"home.php"},{title:"About", short:"about", url:"about.php"}, {title:"Development", short:"development", url:"development.php"}, {title:"Design", short:"design", url:"design.php"}, {title:"Contact", short:"contact", url:"contact.php"}];
+	this.siteTitles = [{title:"Home", short:"", url:"home.php"},{title:"About", short:"about-us-app-development-web-development-company", url:"about.php"}, {title:"Development", short:"app-web-software-development-company", url:"development.php"}, {title:"Design", short:"website-design-app-design-company", url:"design.php"}, {title:"Contact", short:"contact-us", url:"contact.php"}];
 	
-	this.siteTitlesM = [{title:"Home", short:"", url:"home.php"},{title:"About", short:"about", url:"about.php"}, {title:"Development", short:"development", url:"developmentM.php"}, {title:"Design", short:"design", url:"designM.php"}, {title:"Contact", short:"contact", url:"contact.php"}];
+	this.siteTitlesM = [{title:"Home", short:"", url:"home.php"},{title:"About", short:"about-us-app-development-web-development-company", url:"about.php"}, {title:"Development", short:"app-web-software-development-company", url:"developmentM.php"}, {title:"Design", short:"website-design-app-design-company", url:"designM.php"}, {title:"Contact", short:"contact-us", url:"contact.php"}];
 	
-	this.siteTitlesT = [{title:"Home", short:"", url:"home.php"},{title:"About", short:"about", url:"about.php"}, {title:"Development", short:"development", url:"developmentT.php"}, {title:"Design", short:"design", url:"designT.php"}, {title:"Contact", short:"contact", url:"contact.php"}];
+	this.siteTitlesT = [{title:"Home", short:"", url:"home.php"},{title:"About", short:"about-us-app-development-web-development-company", url:"about.php"}, {title:"Development", short:"app-web-software-development-company", url:"developmentT.php"}, {title:"Design", short:"website-design-app-design-company", url:"designT.php"}, {title:"Contact", short:"contact-us", url:"contact.php"}];
 	
 
 	this.startSite = function(){
